@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container .navbar {
+    background-color: rgba(255, 128, 9, 0.986);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar h1  {
+    margin: 20px 0 20px 0;
+    color: orange;
+    background-color: #ffff;
+    font-size: 36px;
+}
+.container .navbar p {
+    margin: 10px 0 10px 0;
+    color:#ffff;
+    font-size: 24px;
+    
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .input-group input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-right: none;
+    width: 1000px;
+    height: 50px;
+  }
+  
+  .button-group {
+    margin-left: -1px;
+  }
+  
+  .button-group button {
+    background-color: rgb(204, 194, 194);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 0 5px 5px 0;
+  }
+  .button-group :hover {
+    background-color: blue;
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+  }
+  .container .list ul .lico {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    }
+  .container .list ul .lico span {
+    margin-right: 50px;
+  }
+  .container .list ul li {
+    margin-left: 50px;
+    
+  }
+  

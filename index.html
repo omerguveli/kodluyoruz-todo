@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kodluyoruz Todo List</title>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <h1>Kodluyoruz</h1>
+        <p>Yapılacaklar Listesi</p>
+        <div class="input-group">
+            <input type="text" class="text" placeholder="Bugün ne Yapacaksın">
+            <span class="close" style="margin-right: 50px ;"><i class="fa-solid fa-xmark input-close"></i></span>
+            <span class="button-group">
+              <button type="button" id="button">Ekle</button>
+              
+            </span>
+          </div>
+    </div>
+    <div class="list">
+        <ul>
+                <div class="lico">
+                    <li >3 Litre su iç</li>
+                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="lico">
+                    <li >Ödevleri yap</li>
+                    <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="lico">
+                    <li >En az 3 saatlik Kodlama yap</li>
+                    <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="lico">
+                <li >Yemek Yap</li>
+                <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="lico">
+                <li >50 sayfa kitap oku</li>
+                <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+        </ul>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
